@@ -1,9 +1,10 @@
 /* Global Styles */
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #b5b2df;
     --secondary-color: #4d44db;
     --dark-color: #121212;
     --dark-secondary: #1e1e1e;
+    --bar-color: #1258e3;
     --light-color: #f8f9fa;
     --gray-color: #6c757d;
     --light-gray: #e9ecef;
@@ -367,7 +368,7 @@ a:hover {
 
 .skill-bar {
     height: 10px;
-    background-color: var(--dark-secondary);
+    background-color: var(--bar-color);
     border-radius: 5px;
     overflow: hidden;
 }
